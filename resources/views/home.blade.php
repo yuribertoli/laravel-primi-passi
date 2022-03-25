@@ -7,9 +7,18 @@
     <title>Document</title>
 </head>
 <body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="contatti">contatti</a></li>
+                <li><a href="chi-siamo">chi siamo</a></li>
+            </ul>
+        </nav>
+    </header>
     
     <h1>
-        {{ $testo }}
+        {{ $text }}
     </h1>
 
 </body>

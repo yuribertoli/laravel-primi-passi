@@ -16,8 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $data = [
-        "testo"=>"non so cosa scrivere"
+        "text"=>"non so cosa scrivere"
     ];
 
     return view('home', $data);
 });
+
+Route::get('/contatti', function (){
+    return view('contatti');
+});
+
+Route::get('/chi-siamo', function (){
+    return view('chi-siamo');
+});
+
+
